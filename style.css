@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&family=Poppins:ital,wght@0,700;1,500&display=swap');
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+body {
+    font-family: "Palanquin", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    padding: 10px 30px;
+}
+
+nav li a {
+    color: rgb(12, 12, 12);
+}
+
+nav li:hover {
+    border-radius: 200px;
+    font-size: 20px;
+    
+}
+
+nav li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color:rgb(148, 137, 112);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 20px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.img-profile {
+width:250px;
+border-radius: 15px 50px 30px;
+margin-right:40px;
+}
+
+
+
+main {
+    background-image:url(img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+}
+
+.content-profile {
+margin-top: 30px;
+align-items: center;
+display: flex;
+flex-direction: column;
+font-size: 10px;
+
+}
